@@ -1,0 +1,3 @@
+dapat materi baru di bagian advance css,
+
+clip path, baru pakai property itu (2026-05-18 20:28:23)
