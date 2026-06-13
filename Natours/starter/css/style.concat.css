@@ -496,6 +496,11 @@ body {
   }
 }
 
+::selection {
+  background-color: #55c57a;
+  color: #fff;
+}
+
 .u-center-text {
   text-align: center !important;
 }
@@ -859,7 +864,7 @@ body {
   font-size: 6rem;
   font-weight: 100;
 }
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 56.25em), only screen and (hover: none) {
   .card {
     height: auto;
     border-radius: 3px;
@@ -1311,7 +1316,7 @@ body {
     height: 95vh;
   }
 }
-@media (min-resolution: 181dpi) and (min-width: 37.5em), (min-width: 125em) {
+@media only screen and (min-resolution: 181dpi) and (min-width: 37.5em), only screen and (min-width: 125em) {
   .header {
     background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url(../img/hero.jpg);
   }
